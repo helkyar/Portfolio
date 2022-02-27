@@ -1,0 +1,15 @@
+//variables
+$prime-color: #e1331a;
+$second-color: #f9f9f9;
+$prime-bg: #f9f9f9;
+$second-bg: #22172b;
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "roboto", sans-serif;
+  min-width: calc(100vh - 4rem);
+  background-color: $prime-bg;
+}
