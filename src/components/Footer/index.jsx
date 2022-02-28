@@ -3,7 +3,7 @@ import { Context } from "App";
 
 import { Atributions } from "./Atributions";
 
-const Footer = () => {
+export const Footer = () => {
   const { atribution: a } = useContext(Context);
 
   return (
@@ -13,5 +13,3 @@ const Footer = () => {
     </footer>
   );
 };
-
-export default Footer;
