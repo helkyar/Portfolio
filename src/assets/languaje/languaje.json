@@ -2,13 +2,26 @@
   "spanish": {
     "atribution": {
       "title": "Reconocimientos",
-      "ref": ["Icono de pestaña creado por "]
+      "references": [
+        {
+          "msg": "Icono de pestaña creado por ",
+          "name": "surang",
+          "url": "https://www.flaticon.com/free-icons/web-development"
+        }
+      ]
     }
   },
   "english": {
     "atribution": {
       "title": "Atributions",
-      "ref": ["Tab icon created by "]
+      "references": [
+        {
+          "msg": "Tab icon created by ",
+          "name": "surang",
+          "url": "https://www.flaticon.com/free-icons/web-development"
+        }
+      ]
     }
-  }
+  },
+  "dutch": {}
 }
