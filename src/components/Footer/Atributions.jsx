@@ -1,7 +1,6 @@
 import React from "react";
 
-export const Atributions = (props) => {
-  const { title, references } = props.data;
+export const Atributions = ({ data: { title, references } }) => {
   return (
     <>
       <h4>{title}</h4>

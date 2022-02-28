@@ -1,5 +1,11 @@
 import React from "react";
 
+import { LngManager } from "components/LngManager";
+
 export const Header = () => {
-  return <div>{console.log("fuck")}</div>;
+  return (
+    <header>
+      <LngManager />
+    </header>
+  );
 };

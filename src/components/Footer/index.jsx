@@ -1,10 +1,11 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Context } from "App";
 
 import { Atributions } from "./Atributions";
 
 export const Footer = () => {
-  const { atribution: a } = useContext(Context);
+  let { value: a } = useContext(Context);
+  a ? (a = a.atribution) : (a = null);
 
   return (
     <footer>

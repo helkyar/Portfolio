@@ -12,16 +12,14 @@ export const Context = createContext(null);
 const App = () => {
   const lngNames = Object.keys(languajes);
   const [lng, setLng] = useState(lngNames[0]);
+  const lngContext = { lngNames, value: languajes[lng], fn: setLng };
   return (
     <div className="App">
       <BrowserRouter>
-        <Context.Provider value={languajes[lng]}>
+        <Context.Provider value={lngContext}>
           <Routes>
             <Route path="/" element={<Main />} />
           </Routes>
-          {lngNames.map((name) => (
-            <button onClick={() => setLng(name)}>{name}</button>
-          ))}
         </Context.Provider>
       </BrowserRouter>
     </div>
