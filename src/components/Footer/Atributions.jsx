@@ -1,10 +1,10 @@
 import React from "react";
 
-export const Atributions = ({ data: { title, references } }) => {
+export const Atributions = ({ lng }) => {
   return (
     <>
-      <h4>{title}</h4>
-      {references.map(({ msg, url, name }, id) => (
+      <h4>{lng.title}</h4>
+      {lng.references.map(({ msg, url, name }, id) => (
         <p key={`atribution-${id}`}>
           {msg}
           <a href={url}>{name}</a>

@@ -1,7 +1,7 @@
 import React from "react";
 
 const Body = () => {
-  return <div>{console.log("eeae")}</div>;
+  return <div></div>;
 };
 
 export default React.memo(Body);

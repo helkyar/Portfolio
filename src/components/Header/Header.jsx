@@ -1,6 +1,6 @@
 import React from "react";
 
-import { LngManager } from "./LngManager";
+import { LngManager } from "./LngSelector";
 
 export const Header = () => {
   return (

@@ -1,8 +1,8 @@
-import React, { useContext } from "react";
-import { Context } from "App";
+import React from "react";
+import { useLngContext } from "logic/useLngContext";
 
 export const LngManager = () => {
-  const { fn: setLng, lngNames } = useContext(Context);
+  const { fn: setLng, lngNames } = useLngContext(null, 1);
   return (
     <>
       {lngNames.map((name, id) => (
