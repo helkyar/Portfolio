@@ -1,6 +1,6 @@
-import React, { useContext, useEffect, useState } from "react";
-import { Context } from "App";
+import React, { useContext } from "react";
 
+import { Context } from "App";
 import { Atributions } from "./Atributions";
 
 export const Footer = () => {
